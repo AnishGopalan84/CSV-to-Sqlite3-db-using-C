@@ -14,3 +14,8 @@ program : input method
 ./program_name csv_file_name DB_name_as_Required Table_name_as_Required
 
 ............................
+
+
+please somebody help me this is very slow modifation required.
+
+1000 lines inserting it is taking 4 minutes .........
