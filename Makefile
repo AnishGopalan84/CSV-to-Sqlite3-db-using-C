@@ -5,9 +5,5 @@ csvtoDB : csvtoDB.o
 csvtoDB.o : csvtoDB.c
 	gcc -c csvtoDB.c 
 
-dTypeAnly : dTypeAnly.o
-	gcc dTypeAnly.o -o dTypeAnly 
-dTypeAnly.o : dTypeAnly.c
-	gcc -c dTypeAnly.c 
 clean:
 	rm -f *.o csvtoDB dTypeAnly
